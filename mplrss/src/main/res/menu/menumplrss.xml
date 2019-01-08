@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="@string/menu_chercher"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/mesfavoris"
+        android:icon="@drawable/favori"
+        android:title="@string/menu_favoris"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mesfichiers"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/menu_fichierrss"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/supprimer"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_supprimer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sauvegarder"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/menu_sauvegarder"
+        app:showAsAction="never" />
+
+</menu>
